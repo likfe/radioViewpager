@@ -1,6 +1,11 @@
 ## RadioGroup 和 ViewPager 联动
 
-[《Android 必知必会 - RadioGroup 和 ViewPager 联动》](http://blog.csdn.net/ys743276112/article/details/52599767) 的Demo
+[《Android 必知必会 - RadioGroup 和 ViewPager 联动》](http://blog.csdn.net/ys743276112/article/details/52599767) 的 Demo
+
+效果图：
+
+![](http://mmmedia.qiniudn.com/2016-09-20-radiogroup_viewpager.gif)
+
 
 详细讲解请访问原链接。
 
