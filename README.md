@@ -4,4 +4,4 @@
 
 详细讲解请访问原链接。
 
-APK 文件下载
+[APK 文件下载](https://github.com/likfe/radioViewpager/raw/master/app-demo.apk)
