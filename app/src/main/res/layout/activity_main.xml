@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.likfe.demo.module2radioviewpager.MainActivity"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/title_bar">
+
+        <RadioGroup
+            android:id="@+id/main_top_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/top_rg_a"
+                android:layout_width="76dp"
+                android:layout_height="29dp"
+                android:background="@drawable/top_r_bg"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="最新"
+                android:textColor="@drawable/top_r_text"
+                android:textColorHighlight="@color/title_bar"
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:id="@+id/top_rg_b"
+                android:layout_width="76dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="-1dp"
+                android:background="@drawable/top_r_bg2"
+                android:button="@null"
+                android:gravity="center"
+                android:text="热门"
+                android:textColor="@drawable/top_r_text"
+                android:textColorHighlight="@color/title_bar"
+                android:textSize="15sp"/>
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/main_top_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:src="@mipmap/main_search"
+            />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/space"/>
+
+</LinearLayout>
+
